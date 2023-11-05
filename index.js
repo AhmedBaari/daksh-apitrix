@@ -49,6 +49,18 @@ app.use("/app/delete/satellites", deleteSatellites);
 const deleteGroundST = require("./routes/delete/groundst");
 app.use("/app/delete/groundst", deleteGroundST);
 
+/* TASK */
+// nextpos
+const nextPos = require("./routes/task/nextpos");
+app.use("/app/task/nextpos", nextPos);
+
+// nearestgs
+const nearestGS = require("./routes/task/nearestgs");
+app.use("/app/task/nearestgs", nearestGS);
+
+// mindist
+const minDist = require("./routes/task/mindist");
+app.use("/app/task/mindist", minDist);
 
 
 
