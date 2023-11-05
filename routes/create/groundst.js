@@ -8,7 +8,7 @@ router.post("/", (req, res) => {
 
   // Convert the groundst array to a JSON string
   const data = JSON.stringify(groundst, null, 2);
-
+console.log(data)
   // Write the data to groundst.json
   fs.writeFile(
     path.join(__dirname, "../../memory/groundst.json"),

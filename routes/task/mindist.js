@@ -60,7 +60,7 @@ router.post("/", (req, res) => {
         success: true,
       };
 
-      res.json(response);
+      res.status(200).json(response);
     }
   );
 });

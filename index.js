@@ -64,16 +64,6 @@ app.use("/app/task/mindist", minDist);
 
 
 
-// fs.readdirSync(path.join(__dirname, "routes")).forEach((dir) => {
-//   fs.readdirSync(path.join(__dirname, "routes", dir)).forEach((file) => {
-//     const route = require(path.join(__dirname, "routes", dir, file));
-//     if (route) {
-//       app.use(`/app/${dir}/${file.split(".")[0]}`, route);
-//     } else {
-//       console.error(`Invalid route file: routes/${dir}/${file}`);
-//     }
-//   });
-// });
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

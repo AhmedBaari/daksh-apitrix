@@ -55,7 +55,7 @@ fs.readFile(
       success: true,
     };
 
-    res.send(nextPos);
+    res.status(200).send(nextPos);
   }
 );
 });
