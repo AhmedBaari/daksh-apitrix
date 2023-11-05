@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "id": 2,
+    "name": "SatelliteB",
+    "latitude": 40.7128,
+    "longitude": -74.006,
+    "altitude_km": 450,
+    "status": "inactive",
+    "country": "UnitedStates"
+  },
+  {
+    "id": 3,
+    "name": "SatelliteD",
+    "latitude": 48.415,
+    "longitude": -129.4194,
+    "altitude_km": 700,
+    "status": "active",
+    "country": "India"
+  }
+]
